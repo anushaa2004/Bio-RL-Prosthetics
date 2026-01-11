@@ -72,7 +72,7 @@ sns.boxplot(data=full_data, x="Algorithm", y="Total Reward", ax=axes[0], palette
 axes[0].set_title("Clinical Performance (Higher is Better)")
 axes[0].set_ylabel("Return (Reward)")
 
-# Plot 2: Jerk (Safety) - THIS IS YOUR WINNING PLOT
+# Plot 2: Jerk (Safety)
 sns.boxplot(data=full_data, x="Algorithm", y="Total Jerk (Smoothness Cost)", ax=axes[1], palette="Set2")
 axes[1].set_title("Actuator Stress/Jerk (Lower is Safer)")
 axes[1].set_ylabel("Cumulative Jerk")
@@ -80,3 +80,4 @@ axes[1].set_ylabel("Cumulative Jerk")
 print("Displaying plots...")
 plt.tight_layout()
 plt.show()
+
