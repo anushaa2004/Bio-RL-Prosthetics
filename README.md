@@ -42,9 +42,6 @@ python visualize_advanced.py
 * `train_ablation.py`: Trains the "Raw" TD3 baseline (no bio-constraints) for ablation studies.
 
 ### Reproducing Figures
-* `train_logger.py` & `plot_curve.py`: Generate the training logs and plot the **Learning Efficiency Curve (Fig 3)**.
-* `visualize.py`: Runs clinical trials to generate the **Safety/Jerk Boxplots (Fig 4)**.
-* `visualize_advanced.py`: plots the **Actuator Voltage Control Signals (Fig 6)**.
-
-### Diagram Generation
-* `Twin_Critic_Safety_Brake_diagram.py`: Python script used to generate the **Twin Critic architecture diagram (Fig 1)**.
+* `train_logger.py` & `plot_curve.py`: Generate the training logs and plot the **Learning Efficiency Curve**.
+* `visualize.py`: Runs clinical trials to generate the **Safety/Jerk Boxplots**.
+* `visualize_advanced.py`: plots the **Actuator Voltage Control Signals**.
